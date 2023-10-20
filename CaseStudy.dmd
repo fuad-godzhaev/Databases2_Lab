@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CaseStudy" id="90A45C78-CC48-8888-7EC3-9AE5CB552C92" version="3.5">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-20 10:26:49 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>90A45C78-CC48-8888-7EC3-9AE5CB552C92</designId>
+</OSDM_Design>

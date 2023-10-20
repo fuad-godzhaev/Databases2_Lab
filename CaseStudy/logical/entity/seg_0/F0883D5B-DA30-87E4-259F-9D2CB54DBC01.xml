@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0883D5B-DA30-87E4-259F-9D2CB54DBC01" name="Client">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-20 10:44:34 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="clientName" id="F7D2347F-B92F-2332-9958-E7A52069C4A2">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-20 11:31:48 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clientPhone" id="5860D85C-A6CC-7EFB-21AD-23357434DA27">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-20 11:32:08 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clientBudget" id="A96A3389-7D40-6746-70E2-6AE948FBB852">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-20 11:36:31 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

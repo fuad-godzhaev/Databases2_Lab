@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E98E8DB8-10B6-650D-70E8-B4DC240ED4F2" name="Sale">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-20 11:20:51 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="saleID" id="04B619EF-3ACF-1D35-7930-EBA274413F55">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-20 11:21:06 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dateOffered" id="76C695B9-1CA3-269F-6648-E8ACA9EDBBDB">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-20 11:21:51 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agentID" id="55FEDA03-64F6-23A3-B127-47823847E934">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-20 11:30:53 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A9B9C3D-B34C-F5D7-C20D-A071BCC131A3" name="Sale PK">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-20 11:22:22 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04B619EF-3ACF-1D35-7930-EBA274413F55</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
