@@ -55,6 +55,21 @@
 <dataTypeSize>15 CHAR</dataTypeSize>
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="branchName" id="DC6419A6-B617-198E-3AAE-D0E406CF61C2">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-23 11:29:28 UTC</createdTime>
+<generatorID>392E5811-25FD-B014-A72B-36D942F9DE34</generatorID>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<referedAttribute>75031003-C056-77F6-1027-82FB3466506A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="24059FF2-0212-8306-8518-641EA2D95960" name="Agent PK">
@@ -67,6 +82,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>A594241E-72E8-CBEE-DCB5-800D8587F81A</attributeRef>
+<attributeRef>DC6419A6-B617-198E-3AAE-D0E406CF61C2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

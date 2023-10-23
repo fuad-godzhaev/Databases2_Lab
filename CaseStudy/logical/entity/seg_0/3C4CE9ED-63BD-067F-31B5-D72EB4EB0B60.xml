@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="propertyID" id="EE3FA0D6-05F8-C6C9-7698-8B511C44C625">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-23 10:51:37 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="propertyAddress" id="DDA63064-BF0A-98BC-4DE8-6EB540357C44">
 <createdBy>wrx</createdBy>
 <createdTime>2023-10-20 11:12:34 UTC</createdTime>
@@ -62,4 +74,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6795461C-3E4D-07AE-539E-F79D222E026A" name="Property PK">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-23 10:51:54 UTC</createdTime>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE3FA0D6-05F8-C6C9-7698-8B511C44C625</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -56,20 +56,6 @@
 <dataTypeSize>15 CHAR</dataTypeSize>
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="agentID" id="1798AAD1-9370-08AD-FA83-3A23EF7DE577">
-<createdBy>wrx</createdBy>
-<createdTime>2023-10-20 10:59:21 UTC</createdTime>
-<generatorID>BF6BD105-600E-CED1-F5F3-5E24FFA753AE</generatorID>
-<ownerDesignName>CaseStudy</ownerDesignName>
-<engineerTo>
-<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
-</engineerTo>
-<referedAttribute>A594241E-72E8-CBEE-DCB5-800D8587F81A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FED5E678-7035-2249-C600-BB615B82BB46" name="Office PK">

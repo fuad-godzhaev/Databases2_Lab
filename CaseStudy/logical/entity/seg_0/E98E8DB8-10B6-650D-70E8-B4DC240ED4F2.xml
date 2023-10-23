@@ -22,7 +22,9 @@
 <engineerTo>
 <item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dateOffered" id="76C695B9-1CA3-269F-6648-E8ACA9EDBBDB">
@@ -33,18 +35,53 @@
 <item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="agentID" id="55FEDA03-64F6-23A3-B127-47823847E934">
+<Attribute name="branchName" id="1BBE8434-231F-12D6-952C-7BF1AA758FC7">
 <createdBy>wrx</createdBy>
-<createdTime>2023-10-20 11:30:53 UTC</createdTime>
+<createdTime>2023-10-23 11:47:39 UTC</createdTime>
+<generatorID>E70B8FF6-8440-CF93-3026-2AEC06F01327</generatorID>
 <ownerDesignName>CaseStudy</ownerDesignName>
 <engineerTo>
 <item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<referedAttribute>75031003-C056-77F6-1027-82FB3466506A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agentID" id="43AD0356-D60B-046B-2951-EE011BE3041B">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-23 11:47:57 UTC</createdTime>
+<generatorID>5631CB0C-1E07-7EF9-8093-24A4D21DA9E7</generatorID>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<referedAttribute>A594241E-72E8-CBEE-DCB5-800D8587F81A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="branchName1" id="54F0175A-0483-4D84-8CE8-EB64B06AB58B">
+<createdBy>wrx</createdBy>
+<createdTime>2023-10-23 11:47:57 UTC</createdTime>
+<generatorID>5631CB0C-1E07-7EF9-8093-24A4D21DA9E7</generatorID>
+<ownerDesignName>CaseStudy</ownerDesignName>
+<engineerTo>
+<item key="D9006549-DFDB-288E-124D-55B591D497D1" value="true"/>
+</engineerTo>
+<referedAttribute>DC6419A6-B617-198E-3AAE-D0E406CF61C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -59,6 +96,9 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>04B619EF-3ACF-1D35-7930-EBA274413F55</attributeRef>
+<attributeRef>1BBE8434-231F-12D6-952C-7BF1AA758FC7</attributeRef>
+<attributeRef>43AD0356-D60B-046B-2951-EE011BE3041B</attributeRef>
+<attributeRef>54F0175A-0483-4D84-8CE8-EB64B06AB58B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
